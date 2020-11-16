@@ -1,17 +1,17 @@
 # UrbanSound Classification with CNN and RNN
-## Table of Contents
+### Table of Contents
 * [About the Project](#about-the-project)
 * [Built With](#built-with)
 * [Usage](#usage)
 * [NoteBooks](#notebooks)
 * [Contact](#contact)
 
-## About the Project
+### About the Project
 This project is about applying deep learning technologies to classify the sound files. Also this is a course project for 
 my graduate study in the deep learning theories taught by [Dr. Emad Mohammed](https://scholar.google.com/citations?user=hJPaK90AAAAJ&hl=en) in the Lakehead 
 University in 2019.
 
-## Built With
+### Built With
 ![cnn_rnn_logs](https://user-images.githubusercontent.com/55723894/99321383-af0d5480-283b-11eb-8c82-374953c13669.jpeg)
 The project code is written in python in Jupyter Notebook. It could also be implemented on Google Colaboratory, and the file path needs to be modified based 
 on the dataset folder in the google drive.   
@@ -23,13 +23,13 @@ on the dataset folder in the google drive.
 * [Librosa](https://librosa.org/)
 * [Matplotlib](https://matplotlib.org/)
 
-## Movitation
+### Movitation
 UrbanSound8K dataset is not a new dataset for the classification challenge. There have been several researches conducted based on this dataset with the 
 machine learning algorithms from 2014-2016. However, this project is not to examine the previous research result or to copy the publication result into the 
 notebook. Instead, I use this dataset to implement all the deep learning technologies I've learnt from the class, so this project contains a full workflow 
 from the raw data processing to final deep learning model construction including CNN, RNN, Transfer Learning and Functional API, etc. 
 
-## Dataset
+### Dataset
 Due to the large size of the dataset, I cannot upload it to the github repo. but the dataset could be 
 downloaded from this [link](https://urbansounddataset.weebly.com/urbansound8k.html). The dataset has 8732 audio files of urban sounds in .wav format and 
 all stats information of the dataset is saved a meta-data file named as "UrbanSound8K.csv". This csv file is also the entry point of the data preprocessing 
@@ -49,7 +49,7 @@ Sound classes:
 
 Sound labels: air_conditioner, car_horn, children_playing, dog_bark, drilling, engine_idling, gun_shot, jackhammer, siren, street_music.
 
-## Notebooks
+### Notebooks
 To use the notebooks posted in this repo, please check some modifications as follows: 
 1. The original data are split into 10 folders which is setup to examine the experiment result in the publication. But to use the notebooks in the repo, 
 please merge all 10 folders into one folder and change the path in the notebook to link the metadata file.
@@ -65,7 +65,7 @@ four binary files that could be generated in the Data Processing notebook for th
 - api_cnn_tensor: one binary file containing all sound data for RNN training with a split 80% for train and 20% for validation 
 ((x_train, y_train, x_val, y_val) = api_cnn_tenor) 
 
-## Contact
+### Contact
 C.Young: kyang3@lakehadu.ca
 
 Project Link: https://github.com/mlmaster1995/UrbanSound-Classification_CNN_RNN
