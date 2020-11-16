@@ -12,6 +12,7 @@ my graduate study in the deep learning theories taught by [Dr. Emad Mohammed](ht
 University in 2019.
 
 ## Built With
+![cnn_rnn_logs](https://user-images.githubusercontent.com/55723894/99321383-af0d5480-283b-11eb-8c82-374953c13669.jpeg)
 The project code is written in python in Jupyter Notebook. It could also be implemented on Google Colaboratory, and the file path needs to be modified based 
 on the dataset folder in the google drive.   
 * [Tensorflow](https://www.tensorflow.org/)
