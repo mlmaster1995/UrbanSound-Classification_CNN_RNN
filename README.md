@@ -30,8 +30,7 @@ notebook. Instead, I use this dataset to implement all the deep learning technol
 from the raw data processing to final deep learning model construction including CNN, RNN, Transfer Learning and Functional API, etc. 
 
 ### Dataset
-Due to the large size of the dataset, I cannot upload it to the github repo. but the dataset could be 
-downloaded from this [link](https://urbansounddataset.weebly.com/urbansound8k.html). The dataset has 8732 audio files of urban sounds in .wav format and 
+Due to the large size of the dataset, it could not be uploaded to git repo. The original dataset could be downloaded from this [link](https://urbansounddataset.weebly.com/urbansound8k.html). The dataset has 8732 audio files of urban sounds in .wav format and 
 all stats information of the dataset is saved a meta-data file named as "UrbanSound8K.csv". This csv file is also the entry point of the data preprocessing 
 in the notebook. 
 
