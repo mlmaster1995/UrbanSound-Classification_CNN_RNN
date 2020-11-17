@@ -1,5 +1,4 @@
 # UrbanSound Classification with CNN and RNN
-![cnn_rnn_logs](https://user-images.githubusercontent.com/55723894/99321383-af0d5480-283b-11eb-8c82-374953c13669.jpeg)
 ### Table of Contents
 * [About the Project](#about-the-project)
 * [Built With](#built-with)
