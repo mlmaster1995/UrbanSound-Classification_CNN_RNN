@@ -5,12 +5,13 @@
 * [About the Project](#about-the-project)
 * [Built With](#built-with)
 * [Usage](#usage)
+* [Motivation](#motivation)
+* [Dataset](#dataset)
 * [NoteBooks](#notebooks)
 * [Contact](#contact)
 
 ### About the Project
 This is a course project for "Deep Learning Theory and Models" during the graduate study in 2020. The project is to apply deep learning technologies to classify the sound files. 
-More details about the project is available in "ESOF-5033-WA-Deep Learning Theory and Models.pdf".
 
 ### Built With
 The project code is written in python in Jupyter Notebook. It could also be implemented on Google Colaboratory, and the file path needs to be modified based 
@@ -23,7 +24,7 @@ on the dataset folder in the google drive.
 * [Librosa](https://librosa.org/)
 * [Matplotlib](https://matplotlib.org/)
 
-### Movitation
+### Motivation
 UrbanSound8K dataset is not a new dataset for the classification challenge. There have been several researches conducted based on this dataset with the 
 machine learning algorithms from 2014-2016. However, this project is not to examine the previous research result or to copy the publication result into the 
 notebook. Instead, the project applies this dataset to implement all the deep learning technologies taught from the class, so this project contains a full workflow 
